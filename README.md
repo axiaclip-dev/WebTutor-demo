@@ -18,7 +18,7 @@
 
 ### PC 版
 
-![デモサイトイメージ](./images/demo/snapshot_index_pc.png)
+![デモサイトイメージ](./images/demo/snapshot_top_pc.png)
 
 ## 成果
 
@@ -42,7 +42,7 @@ service-lp-demo/
 - リポジトリをクローンします。
 
 ```bash
-git clone https://github.com/axiaclip-dev/demo-site-01.git
+git clone https://github.com/axiaclip-dev/WebTutor-demo.git
 ```
 
 ## 著作権
