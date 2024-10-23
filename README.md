@@ -18,7 +18,7 @@
 
 ### PC 版
 
-![デモサイトイメージ](./images/demo/snapshot_top_pc.png)
+![デモサイトイメージ](./images/demo/snapshot_index_pc.png)
 
 ## 成果
 
