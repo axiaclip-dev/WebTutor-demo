@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO -->
+    <title>【架空サイト】Web Tutor</title>
+    <link rel="icon" href="./images/favicon.ico" />
+    <meta name="description" content="Web Tutorは、Web制作に関するe-Learningを提供するデモサイトです。初心者から上級者まで、幅広い内容をカバーしています。" />
+    <meta property="og:title" content="Web Tutor - Web制作e-Learningデモサイト" />
+    <meta property="og:description" content="Web Tutorは、Web制作に関するe-Learningを提供するデモサイトです。" />
+    <meta property="og:image" content="https://axiaclip-dev.github.io/WebTutor-demo/assets/axiaclip_dev_ogp.png" /> <!-- OG画像のURLを指定 -->
+    <meta property="og:url" content="https://axiaclip-dev.github.io/WebTutor-demo/" /> <!-- サイトのURLを指定 -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Web Tutor - Web制作e-Learningデモサイト" />
+    <meta name="twitter:description" content="Web Tutorは、Web制作に関するe-Learningを提供するデモサイトです。" />
+    <meta name="twitter:image" content="https://axiaclip-dev.github.io/WebTutor-demo/assets/axiaclip_dev_ogp.png" /> <!-- Twitter用画像のURLを指定 -->
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/all.min.css" />
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- Navigation -->
+      <nav class="navbar" role="navigation" aria-label="Main Navigation">
+        <div class="navbar-flex container">
+          <a href="/" aria-label="Logo Home Link" class="logo">
+              Web Tutor
+          </a>
+          <!-- PC Menu -->
+          <div class="main-menu-items">
+            <ul class="main-menu-list">
+              <li><a href="/">ホーム</a></li>
+              <li><a href="#course">コース</a></li>
+
+              <li><a href="#results">学習成果</a></li>
+              <li><a href="#career">転職支援</a></li>
+              <li><a href="contact.html">お問い合わせ</a></li>
+              <li>
+                <a href="https://facebook.com" target="_blank" aria-label="Follow Us On Facebook">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com" target="_blank" aria-label="Follow Us On Twitter">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+          <!-- Hamburger button -->
+          <div
+            class="mobile-menu-toggle"
+            role="button"
+            aria-expanded="false"
+            aria-controls="mobile-menu-items"
+            aria-label="Open mobile menu"
+            tabindex="0"
+          >
+            <i class="fas fa-bars fa-2x"></i>
+          </div>
+          <!-- Mobile Menu Items -->
+          <div id="mobile-menu-items" class="mobile-menu-items">
+            <ul class="mobile-menu-list">
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="#chapters">Chapters</a>
+              </li>
+              <li>
+                <a href="#summary">Summary</a>
+              </li>
+              <li>
+                <a href="#takeaways">Takeaways</a>
+              </li>
+              <li>
+                <a href="#author">Author</a>
+              </li>
+              <li>
+                <a href="contact.html">Contact</a>
+              </li>
+              <li>
+                <a
+                  href="https://facebook.com"
+                  target="_blank"
+                  aria-label="Follow Us On Facebook"
+                >
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com"
+                  target="_blank"
+                  aria-label="Follow Us On Twitter"
+                >
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <div class="hero">
+          <div class="container hero-flex">
+              <div class="hero-content">
+                  <h1>自宅で気軽にWebスキルを学べる</h1>
+                  <p>
+                    クリエイティブな世界に深く飛び込み、高品質な動画教材を使ってWeb制作の作り方を学びましょう。
+                  </p>
+                  <a href="#" class="btn">無料で始めよう</a>
+              </div>
+              <img src="images/header-course.jpg" class="hero-image" />
+          </div>
+
+          <svg
+              class="frame-decoration"
+              data-name="Layer 2"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="none"
+              viewBox="0 0 1920 192.275"
+          >
+              <defs>
+                  <style>
+                      .cls-1 {
+                          fill: #ffffff;
+                      }
+                  </style>
+              </defs>
+              <title>frame-decoration</title>
+              <path
+                  class="cls-1"
+                  d="M0,158.755s63.9,52.163,179.472,50.736c121.494-1.5,185.839-49.738,305.984-49.733,109.21,0,181.491,51.733,300.537,50.233,123.941-1.562,225.214-50.126,390.43-50.374,123.821-.185,353.982,58.374,458.976,56.373,217.907-4.153,284.6-57.236,284.6-57.236V351.03H0V158.755Z"
+                  transform="translate(0 -158.755)"
+              />
+          </svg>
+      </div>
+    </header>
+
+    <!-- Main Contents -->
+    <main>
+      <!-- Course Section -->
+      <section class="course">
+        <div class="container">
+          <div class="section-header">
+            <h2>何を学びますか?</h2>
+            <div class="heading-border"></div>
+            <p>
+              包括的なビデオ コースで学習の旅に出かけませんか。
+              興味あるレッスンに参加して、スキマ時間で一緒にスキルアップしましょう。
+            </p>
+          </div>
+
+          <div class="topics">
+            <div class="topic">
+              <div class="topic-image">
+                <img src="images/description-1.jpg" alt="サイト構成図" />
+              </div>
+              <div class="topic-text">
+                <h3>デザインの基礎</h3>
+              </div>
+            </div>
+            <div class="topic">
+              <div class="topic-image">
+                <img src="images/description-2.jpg" alt="Photoshopを起動する画面" />
+              </div>
+              <div class="topic-text">
+                <h3>Adobe Photoshopの使い方</h3>
+              </div>
+            </div>
+            <div class="topic">
+              <div class="topic-image">
+                <img src="images/description-3.jpg" alt="Illustratorを起動する画面" />
+              </div>
+              <div class="topic-text">
+                <h3>Adobe Illustratorの使い方</h3>
+              </div>
+            </div>
+            <div class="topic">
+              <div class="topic-image">
+                <img src="images/description-4.jpg" alt="マーケティング資料" />
+              </div>
+              <div class="topic-text">
+                <h3>デジタルマーケティングの基礎</h3>
+              </div>
+            </div>
+            <div class="topic">
+              <div class="topic-image">
+                <img src="images/description-5.jpg" alt="データ分析画面" />
+              </div>
+              <div class="topic-text">
+                <h3>データ分析</h3>
+              </div>
+            </div>
+            <div class="topic">
+              <div class="topic-image">
+                <img src="images/description-6.jpg" alt="Web制作画面" />
+              </div>
+              <div class="topic-text">
+                <h3>HTMLとCSSの基礎</h3>
+              </div>
+            </div>
+            <div class="topic">
+              <div class="topic-image">
+                <img src="images/description-7.jpg" alt="ノートPC操作" />
+              </div>
+              <div class="topic-text">
+                <h3>JavaScriptの基本</h3>
+              </div>
+            </div>
+            <div class="topic">
+              <div class="topic-image">
+                <img src="images/description-8.jpg" alt="完成したWebサイト" />
+              </div>
+              <div class="topic-text">
+                <h3>架空プロジェクトに参加</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Course Explain Section -->
+      <section class="chapters section" id="course">
+        <div class="container">
+          <div class="section-header">
+            <h2>コースのご紹介</h2>
+            <div class="heading-border"></div>
+            <p>
+              1レッスンが3分でまとめられており、通勤や通学、家事のスキマ時間で学習できます。
+              動画学習のため、無理なくスキルを身につけられるようになっています。
+            </p>
+          </div>
+          <div class="course-cards">
+            <div class="card">
+              <img src="images/chapter-icon-1.jpeg" alt="chapter 1" />
+              <h3>デザインコース</h3>
+              <p>
+                デザインの基礎やAdobe Photoshop・Illustratorの使い方を学習します。
+                架空のプロジェクトを通して、Webデザイナーとしてのポートフォリオを作成できます。
+              </p>
+            </div>
+            <div class="card">
+              <img src="images/chapter-icon-2.jpeg" alt="chapter 2" />
+              <h3>マーケティングコース</h3>
+              <p>
+                デジタルマーケティングの基礎や広告戦略、データ分析を学習します。
+                実際のキャンペーン企画に参加して、マーケッターの実務を経験できます。
+              </p>
+            </div>
+            <div class="card">
+              <img src="images/chapter-icon-3.jpeg" alt="chapter 3" />
+              <h3>プログラミングコース</h3>
+              <p>
+                Webサイト制作に必要なHTML・CSSを学習します。架空のサイト制作を通して、
+                必要なアニメーション設定をJavaScriptで開発できるようになります。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Course Info -->
+      <section class="info" id="info">
+        <div class="info-container">
+          <div class="info-left">
+            <img src="../images/audience.jpg" alt="モニター前でガッツポーズする3名の女性" />
+          </div>
+          <div class="info-right">
+            <h2>このコースは誰を対象にしていますか?</h2>
+            <p>
+              このコースは、Web デザイン、開発、デジタル マーケティングのスキルと
+              知識を高めたいと考えている個人向けに設計されています。熟練した Web デザイナー、
+              新進の Web 開発者、またはスキル セットの拡張を目指すマーケティング プロフェッショナルなど、
+              どなたでも受講できます。
+            </p>
+            <ul>
+              <li><i class="fas fa-check"></i> Web デザイナー</li>
+              <li><i class="fas fa-check"></i> Web 開発者</li>
+              <li><i class="fas fa-check"></i> マーケティング</li>
+              <li><i class="fas fa-check"></i> フリーランス希望者</li>
+              <li><i class="fas fa-check"></i> 副業エンジニア</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Course Benefits -->
+      <section class="course-benefits section" id="results">
+        <div class="container">
+          <div class="section-header">
+            <h2>期待される学習成果</h2>
+            <div class="heading-border"></div>
+            <p>
+              コース修了後にどんなメリットが期待できるかご紹介します。
+              実際のコース卒業生たちのアンケートを見てみましょう。
+            </p>
+          </div>
+          <div class="course-benefits-cards">
+            <div class="card">
+              <i class="fa-solid fa-palette fa-3x text-primary"></i>
+              <p>
+                <strong>デザインソフト</strong> - Adobe Photoshop・Illustrator・XD、Figmaの基本操作
+              </p>
+            </div>
+            <div class="card">
+              <i class="fa-regular fa-object-group fa-3x text-primary"></i>
+              <p>
+                <strong>UI/UXデザイン</strong> - ユーザーリサーチ、ワイヤーフレームとプロトタイピング、ユーザビリティテスト
+              </p>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-rectangle-ad fa-3x text-primary"></i>
+              <p>
+                <strong>広告戦略</strong> - Google広告の使い方、Facebook広告の使い方、リターゲティングとコンバージョン最適化
+              </p>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-ranking-star fa-3x text-primary"></i>
+              <p>
+                <strong>データ分析 </strong> - Google Analyticsの使い方、データの可視化、KPIの設定とモニタリング
+              </p>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-code fa-3x text-primary"></i>
+              <p>
+                <strong>ウェブ開発</strong> - HTMLとCSSの基礎、JavaScriptの基本、フロントエンドフレームワーク（React、Vue.js）
+              </p>
+            </div>
+            <div class="card">
+              <i class="fa-regular fa-image fa-3x text-primary"></i>
+              <p>
+                <strong>ポートフォリオの作成</strong> - チームプロジェクト、コードレビューとフィードバック、デプロイと運用
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Course Details -->
+      <section class="details section" id="details">
+        <div class="container details-flex">
+          <img src="images/details.jpg" alt="優しく微笑むメンター" />
+          <div class="details-content">
+            <h2>フリーランス・副業コースも選べる</h2>
+            <div class="heading-border"></div>
+            <p>
+              時間や場所に縛られない、自分らしい働き方をしたい方を徹底サポートします。
+              Webデザインやコーディング、マーケティングはもちろんのこと、案件獲得のノウハウをご紹介。
+              さらに、案件を獲得後は、実際の作業をメンターにいつでも聞けるので安心です。
+            </p>
+            <a href="#" class="btn">詳しくはこちら</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Career Support Details -->
+      <section class="details section" id="career">
+        <div class="container details-flex">
+          <img src="images/author.jpg" alt="男女のキャリアアドバイザー" />
+          <div class="details-content">
+            <h2>転職サポートを活用しよう</h2>
+            <div class="heading-border"></div>
+            <p>
+              コース受講生は、人事採用とエンジニア経験のあるアドバイザーがマンツーマンで
+              あなたの理想的な転職活動をサポートします。
+            </p>
+            <ul>
+              <li>
+                <i class="fas fa-chevron-circle-right text-primary"></i>
+                <strong>職務経歴書の添削: </strong> 書類通過率を20%アップ
+              </li>
+              <li>
+                <i class="fas fa-chevron-circle-right text-primary"></i
+                ><strong>ポートフォリオ作成: </strong> 高品質なWebサイトを作成
+              </li>
+              <li>
+                <i class="fas fa-chevron-circle-right text-primary"></i
+                ><strong>面接対策: </strong> 模擬Web面談してフィードバック
+              </li>
+            </ul>
+            <a href="#" class="btn">詳しくはこちら</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stats -->
+      <section class="stats section" id="stats">
+        <div class="container stats-flex">
+          <img src="images/stats.jpg" alt="stats" />
+          <div class="stats-content">
+            <div class="stats-numbers">
+              <div>
+                <h3 aria-labelledby="completion-rate">99%</h3>
+                <p id="completion-rate">修了率</p>
+              </div>
+              <div>
+                <h3 aria-labelledby="project-acquisition-rate">396</h3>
+                <p id="project-acquisition-rate">案件の獲得率</p>
+              </div>
+              <div>
+                <h3 aria-labelledby="job-success-count">420</h3>
+                <p id="job-success-count">転職成功の件数</p>
+              </div>
+              <div>
+                <h3 aria-labelledby="course-satisfaction">4.7</h3>
+                <p id="course-satisfaction">コース満足度</p>
+              </div>              
+            </div>
+
+            <p class="stats-text">
+              私たちのコースに参加して、Webデザイナーや、フロントエンジニアの
+              キャリアを目指しませんか？
+            </p>
+            <a href="#" class="btn">無料で受講する</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Newsletter -->
+      <section class="newsletter section" id="newsletter">
+        <div class="container newsletter-flex">
+          <h2>メルマガを購読する</h2>
+          <p>
+            最新コースやWeb業界のニュース、資格スケジュールをメルマガでお届けします。
+            あなたの学習成果をフィードバックし、効率的な学習をサポート!
+          </p>
+          <form>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="メールアドレスを入力してください"
+            />
+            <button type="submit" class="btn">無料で購読する</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Social -->
+      <section class="social section">
+        <div class="container">
+          <p>ソーシャル メディアでコース紹介をしています。</p>
+          <div class="social-icons">
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              aria-label="Follow Us On Facebook"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              aria-label="Follow Us On X"
+            >
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              aria-label="Follow Us On Instagram"
+              ><i class="fa-brands fa-instagram"></i>
+            </a>
+            <a
+              href="https://linkdin.com"
+              target="_blank"
+              aria-label="Follow Us On Linkdin"
+              ><i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a
+              href="https://youtube.com"
+              target="_blank"
+              aria-label="Follow Us On Youtube"
+            >
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a
+              href="https://pinterest.com"
+              target="_blank"
+              aria-label="Follow Us On Pinterest"
+            >
+              <i class="fa-brands fa-pinterest"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-flex">
+        <ul class="footer-links">
+          <li><a href="#">ホーム</a></li>
+          <li><a href="#">利用規約</a></li>
+          <li><a href="#">プライバシーポリシー</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+        <p>&copy; 2017 - 2024 AxiaClipスタジオ. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
