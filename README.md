@@ -2,6 +2,10 @@
 
 架空のサービスサイトです。トップページとコンタクトページを作りました。
 
+## デモ
+
+![デモサイトのリンク](https://axiaclip-dev.github.io/WebTutor-demo/)
+
 ## 技術スタック
 
 - HTML5
@@ -15,7 +19,6 @@
 ### PC 版
 
 ![デモサイトイメージ](./images/demo/snapshot_top_pc.png)
-![デモサイトイメージ](./images/demo/snapshot_contact_pc.png)
 
 ## 成果
 
