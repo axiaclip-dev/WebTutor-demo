@@ -4,7 +4,7 @@
 
 ## デモ
 
-![デモサイトのリンク](https://axiaclip-dev.github.io/WebTutor-demo/)
+[デモサイトのリンク](https://axiaclip-dev.github.io/WebTutor-demo/)
 
 ## 技術スタック
 
